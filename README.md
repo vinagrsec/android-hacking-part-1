@@ -9,7 +9,7 @@
 <ul id="block-400dce76-fd3e-48ca-9918-fe47222769a8"><li>Kali Linux Machine<strong> (Attacker)</strong></li><li>Malicious Android application<strong> (APK)</strong></li><li>Android Phone<strong> (Victim)</strong></li></ul>
 
 <p><em><strong>Note:</strong> Attacker and Victim are on the same network here i.e. 192.168.172.x.</em></p>
-<br>
+
 <p><strong>Step-1: Creating Malicious Payload</strong></p>
 
 <p>You need to create a malicious android payload first. For this, login to your Kali Linux machine and follow the below command (Hope you already have installed the Kali Linux in your PC. If not, you can find tons of tutorial for installing Kali Linux over internet. I will not be wasting your time here :-D)</p>
@@ -22,7 +22,7 @@
 
 <strong>•	-p:</strong> Payload <br><strong>•	LHOST:</strong> Local Host <br><strong>•	LPORT:</strong> Local Port <br><strong>•	-f:</strong> Format
  
-<br>
+
 <p><strong>Step-2: Launch Metasploit Framework</strong></p>
 
 <p>Once you create your own APK, it's time launch metasploit framework using msfconsole command in Kali linux machine.</p>
@@ -34,7 +34,7 @@
 ![image-2](https://user-images.githubusercontent.com/92144178/136511950-a4fd8947-33f7-4ae3-b1e3-0650d921a334.png)
 
 <p><em><strong>Note:</strong> Make sure you're using the same payload which you have used while creating the malicious apk in Step-1.</em></p>
-<br>
+
 <p><strong>Step-3: Host the Malicious Android Application</strong></p>
 
 <p>Now, handler is running. You need to host your malicious android application to somewhere so that victim can download it in his/her android phone.</p>
@@ -48,7 +48,7 @@
 ![image-3](https://user-images.githubusercontent.com/92144178/136512500-039235d0-94dc-42bc-9719-1e1cdd726000.png)
 
 <p><em><strong>Note:</strong> The above command should be run under the same directory where the malicious android application is kept.</em></p>
-<br>
+
 <p><strong>Step-4: Download the Hosted Malicious APK on Android Phone</strong></p>
 
 <p>Now, download the malicious android application using the following URL in your android phone's browser. <em>(Please remember the IP address in the URL is your Kali Linux machine local IP address)</em></p>
@@ -61,14 +61,14 @@
 
 ![simple-http-server-log](https://user-images.githubusercontent.com/92144178/136512906-a0d5fcd8-d392-42f9-a399-3dd439cae55e.png)
 
-<br>
+
 <p><strong>Step-5: Install and Access the Android Application</strong></p>
 
 <p>Once the apk is downloaded, install it and click on it.</p>
 
 ![combined-package-installer-and-file-resized-2](https://user-images.githubusercontent.com/92144178/136516291-b3873611-e311-4f58-9bff-560e8cdcf2f3.jpg)
 
-<br>
+
 <p><strong>Step-6: Et Voilà !..You Got the Control</strong></p>
 
 <p>Once you click on the application, you can look into your Kali Linux machine. You must have got the meterpreter session. That means, you have the control on victim's android phone.</p>
@@ -92,14 +92,14 @@
 <p><strong>meterpreter&gt;webcam_stream</strong>  --&gt; To run live camera/video</p>
 
 <p>As you can see, how scary it can be if you download the android application from unknown/untrusted sources.</p>
-<br>
+
 <p><strong>Conclusion</strong></p>
 
 <p>So, what we learned from the activity we've done is:</p>
 
 <ul><li>Never download any android application from unknown/untrusted sources.</li><li>Always download the application from Google Play Store.</li><li>Make sure your installed application gets scanned with Google Play Protect.</li><li>Disable Installation of Unknown applications in phone Settings.</li></ul>
 
-<br>
+
 <p>So, this is it for now. I hope this article was insightful. In the 2nd part, we will learn more sophisticated way to create malicious android application. Stay tuned..!!</p>
 
 <p><strong>Reference</strong></p>
@@ -108,7 +108,7 @@
 
 <br>
 <p><strong>Upcoming Blog - How to Hack an Android Phone using an Malicious Android Application (Part-2)</strong></p>
-
+<br>
 <script src="https://utteranc.es/client.js"
         repo="vinagrsec/android-hacking"
         issue-term="pathname"
