@@ -107,8 +107,7 @@
 
 <li><a href="https://www.offensive-security.com/metasploit-unleashed/">https://www.offensive-security.com/metasploit-unleashed/</a></li>
 
-<br>
-<p><strong>Upcoming Blog - How to Hack an Android Phone using an Malicious Android Application (Part-2)</strong></p>
+
 <br>
 <script src="https://utteranc.es/client.js"
         repo="vinagrsec/android-hacking"
