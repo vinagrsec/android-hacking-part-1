@@ -75,14 +75,12 @@
 
 ![image-4](https://user-images.githubusercontent.com/92144178/136516512-5136ce39-c12f-40f5-a57a-ccb6b62fbf27.png)
 
-<br>
 <p><strong>Step-7: Get Ready for the Killing</strong></p>
 
 <p>Now, you can type "help" command to see what you can do with the victim's phone.</p>
 
 ![help-all-combined](https://user-images.githubusercontent.com/92144178/136519833-ceb86a4e-0e2b-4133-bafe-76c85cb73274.png)
 
-<br>
 <p><strong>Step-8: Sneak Peek</strong></p>
 
 <p>As you can see, you can run numerous commands on the hacked android phone. You can dump all the contact numbers, SMS and other sensitive data. You can record the audio, switch ON the camera and even run a live webcam on victim's phone. Victim will be totally unaware about it. Here're the command below you can run to check:</p>
@@ -92,7 +90,7 @@
 <p><strong>meterpreter&gt;webcam_stream</strong>  --&gt; To run live camera/video</p>
 
 <p>As you can see, how scary it can be if you download the android application from unknown/untrusted sources.</p>
-
+<br>
 <p><strong>Conclusion</strong></p>
 
 <p>So, what we learned from the activity we've done is:</p>
@@ -101,7 +99,7 @@
 
 
 <p>So, this is it for now. I hope this article was insightful. In the 2nd part, we will learn more sophisticated way to create malicious android application. Stay tuned..!!</p>
-
+<br>
 <p><strong>Reference</strong></p>
 
 <li><a href="https://www.offensive-security.com/metasploit-unleashed/">https://www.offensive-security.com/metasploit-unleashed/</a></li>
