@@ -1,5 +1,3 @@
-## Android Hacking - How to Hack an Android Phone using an Malicious Android Application - Part-1
-
 <p>What can happen to your android phone when you download an android application from an untrusted source? What would be its impact on your phone? Well, the results are pretty scary. You won't even know what is going on in the background of your android phone when you download a malicious application.</p>
 
 <p>In this article, we will learn how an attacker can take over control on your phone when you install an application from untrusted sources. We will learn about the approach he/she can take and the results. So, let's begin.</p>
