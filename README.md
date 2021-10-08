@@ -107,7 +107,6 @@
 
 <li><a href="https://www.offensive-security.com/metasploit-unleashed/">https://www.offensive-security.com/metasploit-unleashed/</a></li>
 
-
 <br>
 <script src="https://utteranc.es/client.js"
         repo="vinagrsec/android-hacking"
