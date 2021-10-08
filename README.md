@@ -102,7 +102,19 @@
 <br>
 <p>So, this is it for now. I hope this article was insightful. In the 2nd part, we will learn more sophisticated way to create malicious android application. Stay tuned..!!</p>
 
+<p><strong>Reference</strong></p>
 
+<li><a href="https://www.offensive-security.com/metasploit-unleashed/">https://www.offensive-security.com/metasploit-unleashed/</a></li>
 
+<br>
+<p><strong>Upcoming Blog - How to Hack an Android Phone using an Malicious Android Application (Part-1)</strong></p>
+
+<script src="https://utteranc.es/client.js"
+        repo="vinagrsec/android-hacking"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 
 
